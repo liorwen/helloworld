@@ -46,7 +46,7 @@ var Main = (function (_super) {
         //Config to load process interface
         this.loadingView = new LoadingUI();
         this.stage.addChild(this.loadingView);
-        this.stage.scaleMode = egret.StageScaleMode.EXACT_FIT;
+        this.stage.scaleMode = egret.StageScaleMode.FIXED_NARROW;
         this.stage.orientation = egret.OrientationMode.PORTRAIT;
         //初始化Resource资源加载库
         //initiate Resource loading library

@@ -45,7 +45,7 @@ class Main extends egret.DisplayObjectContainer {
         //Config to load process interface
         this.loadingView = new LoadingUI();
         this.stage.addChild(this.loadingView);
-        this.stage.scaleMode = egret.StageScaleMode.NO_BORDER;
+        this.stage.scaleMode = egret.StageScaleMode.EXACT_FIT;
         this.stage.orientation = egret.OrientationMode.PORTRAIT;
         //初始化Resource资源加载库
         //initiate Resource loading library
